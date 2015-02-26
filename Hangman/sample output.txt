@@ -1,39 +1,94 @@
 Loading word list from file...
-   83667 words loaded.
-Enter n to deal a new hand, r to replay the last hand, or e to end game: n
-Current Hand: p z u t t t o
-Enter word, or a "." to indicate that you are finished: tot
-"tot" earned 9 points. Total: 9 points
-Current Hand: p z u t
-Enter word, or a "." to indicate that you are finished: .
-Total score: 9 points.
-
-Enter n to deal a new hand, r to replay the last hand, or e to end game: r
-Current Hand: p z u t t t o
-Enter word, or a "." to indicate that you are finished: top
-"top" earned 15 points. Total: 15 points
-Current Hand: z u t t
-Enter word, or a "." to indicate that you are finished: tu
-That is not a valid word. Please choose another word
-Current Hand: z u t t
-Enter word, or a "." to indicate that you are finished: .
-Total score: 15 points.
-
-Enter n to deal a new hand, r to replay the last hand, or e to end game: n
-Current Hand: a q w f f i p
-Enter word, or a "." to indicate that you are finished: paw
-"paw" earned 24 points. Total: 24 points
-Current Hand: q f f i
-Enter word, or a "." to indicate that you are finished: qi
-"qi" earned 22 points. Total: 46 points
-Current Hand: f f
-Enter word, or a "." to indicate that you are finished: .
-Total score: 46 points.
-
-Enter n to deal a new hand, r to replay the last hand, or e to end game: n
-Current Hand: a r e t i i n
-Enter word, or a "." to indicate that you are finished: inertia
-"inertia" earned 99 points. Total: 99 points
-Run out of letters. Total score: 99 points.
-
-Enter n to deal a new hand, r to replay the last hand, or e to end game: e
+	55900 words loaded.
+	Welcome to the game, Hangman!
+	I am thinking of a word that is 4 letters long.
+	-------------
+	You have 8 guesses left.
+	Available letters: abcdefghijklmnopqrstuvwxyz
+	Please guess a letter: a
+	Good guess: _ a_ _
+	------------
+	You have 8 guesses left.
+	Available letters: bcdefghijklmnopqrstuvwxyz
+	Please guess a letter: a
+	Oops! You've already guessed that letter: _ a_ _
+	------------
+	You have 8 guesses left.
+	Available letters: bcdefghijklmnopqrstuvwxyz
+	Please guess a letter: s
+	Oops! That letter is not in my word: _ a_ _
+	------------
+	You have 7 guesses left.
+	Available letters: bcdefghijklmnopqrtuvwxyz
+	Please guess a letter: t
+	Good guess: ta_ t
+	------------
+	You have 7 guesses left.
+	Available letters: bcdefghijklmnopqruvwxyz
+	Please guess a letter: r
+	Oops! That letter is not in my word: ta_ t
+	------------
+	You have 6 guesses left.
+	Available letters: bcdefghijklmnopquvwxyz
+	Please guess a letter: m
+	Oops! That letter is not in my word: ta_ t
+	------------
+	You have 5 guesses left.
+	Available letters: bcdefghijklnopquvwxyz
+	Please guess a letter: c
+	Good guess: tact
+	------------
+	Congratulations, you won!
+	
+	
+	Loading word list from file...
+	55900 words loaded.
+	Welcome to the game Hangman!
+	I am thinking of a word that is 4 letters long
+	-----------
+	You have 8 guesses left
+	Available Letters: abcdefghijklmnopqrstuvwxyz
+	Please guess a letter: a
+	Oops! That letter is not in my word _ _ _ _
+	-----------
+	You have 7 guesses left
+	Available Letters: bcdefghijklmnopqrstuvwxyz
+	Please guess a letter: b
+	Oops! That letter is not in my word _ _ _ _
+	-----------
+	You have 6 guesses left
+	Available Letters: cdefghijklmnopqrstuvwxyz
+	Please guess a letter: c
+	Oops! That letter is not in my word _ _ _ _
+	-----------
+	You have 5 guesses left
+	Available Letters: defghijklmnopqrstuvwxyz
+	Please guess a letter: d
+	Oops! That letter is not in my word _ _ _ _
+	-----------
+	You have 4 guesses left
+	Available Letters: efghijklmnopqrstuvwxyz
+	Please guess a letter: e
+	Good guess: e_ _ e
+	-----------
+	You have 4 guesses left
+	Available Letters: fghijklmnopqrstuvwxyz
+	Please guess a letter: f
+	Oops! That letter is not in my word e_ _ e
+	-----------
+	You have 3 guesses left
+	Available Letters: ghijklmnopqrstuvwxyz
+	Please guess a letter: g
+	Oops! That letter is not in my word e_ _ e
+	-----------
+	You have 2 guesses left
+	Available Letters: hijklmnopqrstuvwxyz
+	Please guess a letter: h
+	Oops! That letter is not in my word e_ _ e
+	-----------
+	You have 1 guesses left
+	Available Letters: ijklmnopqrstuvwxyz
+	Please guess a letter: i
+	Oops! That letter is not in my word e_ _ e
+	-----------
+	Sorry, you ran out of guesses. The word was else.
