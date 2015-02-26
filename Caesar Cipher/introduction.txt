@@ -1,0 +1,35 @@
+ps6_encryption.py:
+
+Skeleton code you'll fill in for the encryption part the problem set.
+
+words.txt:
+
+A list of English words
+
+ps6_pseudo.txt:
+
+Pseudocode for Problem 2. We urge you to not look at this file until you reach Problem 2 and read the instructions contained there.
+
+story.txt:
+
+An encoded story
+
+ps6_recursion.py:
+
+Skeleton code for the practice recursion problems.
+
+CAESAR CIPHER
+
+The basic idea of the Caesar cipher is that you pick an integer for a key, and shift every letter of your message by the key. For example, if your message was "happy" and your key was 3, "h" becomes "k", "a" becomes "d", and so on, because we are shifting every letter three spots to the right. Here is what the whole alphabet looks like shifted three spots to the right:
+
+ 
+Original:  a b c d e f g h i j k l m n o p q r s t u v w x y z
+ 3-shift:  d e f g h i j k l m n o p q r s t u v w x y z a b c
+Using the above key, we can quickly translate the message "happy" to "kdssb" (note how the 3-shifted alphabet wraps around at the end, so x -> a, y -> b, and z -> c).
+
+Note!! We are using the English alphabet for this problem - that is, the following letters in the following order:
+
+>>> import string
+>>> print string.ascii_lowercase
+abcdefghijklmnopqrstuvwxyz
+In this problem, we will use a variant of the standard Caesar cipher where we will treat upper and lower case letters separately, so upper case letters will always be mapped to upper case letters, and lower case letters will always be mapped to lower case letters.
